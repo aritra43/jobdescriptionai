@@ -12,7 +12,6 @@ from crewai.project import CrewBase, agent, crew, task
 from dotenv import load_dotenv
 from crewai_tools import FileReadTool, FileWriterTool
 import streamlit as st
-from fpdf import FPDF
 
 load_dotenv()
 
